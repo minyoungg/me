@@ -135,3 +135,45 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+div.person {
+  padding: 0;
+  float: left; }
+  div.person .person-info, div.person .person-thumbnail, div.person .person-text {
+    float: left; }
+  div.person .person-thumbnail {
+    width: 8em; }
+    div.person .person-thumbnail .person-avatar {
+      overflow: hidden;
+      border-radius: 50%;
+      height: 6em;
+      width: 6em;
+      margin: 1em 2em 1em 0; }
+    div.person .person-thumbnail .person-image {
+      height: 100%;
+      width: 100%;
+      display: inline-block; }
+  div.person .person-name {
+    font-size: 1.2em;
+    font-family: 'Avenir';
+    color: #888;
+    font-weight: 300;
+    margin-bottom: 0.25em; }
+    div.person .person-name span {
+      color: #000; }
+    div.person .person-name a {
+      border-bottom: 1px dotted #000;
+      color: #000;
+      font-weight: inherit; }
+    div.person .person-name a:hover {
+      border-bottom: 1px solid #000;
+      text-decoration: none; }
+  div.person .person-text {
+    width: calc(100% - 9em); }
+    div.person .person-text p {
+      color: #888;
+      font-size: 1.1em;
+      margin: 0.1em 0; }
+      div.person .person-text p span {
+        color: #000; }
+}
