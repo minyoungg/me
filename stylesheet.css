@@ -86,22 +86,22 @@ tr,
 p,
 a {
   font-family: 'Avenir', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-size: 12px
 }
 
 strong {
   font-family: 'Avenir', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 heading {
   font-family: 'Avenir', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 papertitle {
   font-family: 'Avenir', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700
 }
 
@@ -176,4 +176,4 @@ div.person {
       margin: 0.1em 0; }
       div.person .person-text p span {
         color: #000; }
-}
+
